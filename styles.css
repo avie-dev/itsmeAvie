@@ -150,6 +150,15 @@ cite { display: block; margin-top: .5rem; font: 400 .9rem "Inter", sans-serif; c
 
 .goal { margin-top: 1.5rem; font-weight: 600; }
 
+h3.group {
+  margin: 2rem 0 .75rem;
+  font: 600 .85rem "Inter", sans-serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+h2 + h3.group { margin-top: 0; }
+
 footer {
   margin-top: 64px;
   padding: 24px 0;
